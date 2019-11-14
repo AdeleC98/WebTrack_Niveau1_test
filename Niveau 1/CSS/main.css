@@ -1,0 +1,50 @@
+
+h2 {
+    color: rgb(54, 101, 173); 
+    font-family: "Bradley Hand", Arial, Sans-Serif; /*quand le nom de la police est en 2 mots, 
+    il faut mettre des guillemets */
+    font-size: 25px;
+    text-align: center;
+} 
+
+.header {color: rgb(54, 101, 173);} /* Pb : si je mets la couleur de header à rouge, 
+"La JE de ECM" est toujours en bleu... malgré le nombre supérieur de points (#header=100 et h2=1) */
+
+p, ul {
+    color: #253065;
+    font-size: 15px;
+    font-family: Verdana, Arial, Sans-Serif;
+    line-height: 20px;
+    text-align: justify; /* pour justifier le texte */
+} /* Verdana = police qui ressemble le plus à Titillium (police de KSI) */
+
+li {color: rgb(37,48,101);}
+
+h1 {font-family: "Bradley Hand", Arial, Sans-Serif;
+    font-size: 35 px;
+    font-weight: bold;
+    text-align: center;
+}  /* on ne peut pas changer la taille avec la police Bradley Hand (mais bizarre parce qu'on peut dans h2), 
+bold n'a pas d'effet */
+
+body {
+background-color: rgb(111,186,199);
+}
+
+a:visited {color:purple;} /* les liens deviennent violets si on les a ouvert (ils étaient bleus à 
+cause du default browser style */
+
+.paragraphe, .titre {
+    width: 90%;
+    padding: 5px;
+}
+
+.paragraphe {margin: 10px 10px 25px 10px;}
+.titre {margin: 10px;}
+
+.titre {border: 1px solid rgb(37,48,101);}
+
+.conclusion, .conclusion p {text-align: center;}
+
+ #col {columns: 30em;
+} /* pour faire des colonnes (deux avec la taille de mon écran)*/
